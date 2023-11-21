@@ -19,7 +19,7 @@ This ReactJS application allows users to search for public repositories on GitHu
 Follow these steps to run the project locally on your machine:
 
 1. **Clone the Repository:**
-   git clone https://github.com/your-username/github-repo-search.git
+   git clone https://github.com/Anjali2424/usersprofile.git
    cd github-repo-search
 
 2. Install Dependencies:
