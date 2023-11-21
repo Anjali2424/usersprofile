@@ -1,38 +1,112 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: #eff1f0;
+ }
+ body{
+  font-family: sans-serif;
+ }
+ .main{
+  margin: 2%;
+ }
+ 
+ .card{
+      width: 20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 2%;
+     }
+ 
+ .image img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+  }
+ 
+ .title{
+   text-align: center;
+   padding: 10px;
+   
+  }
+ 
+ h1{
+   font-size: 20px;
+  }
+ 
+ .des{
+   padding: 3px;
+   text-align: center;
+  
+   padding-top: 10px;
+         border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+ button{
+   margin-top: 40px;
+   margin-bottom: 10px;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding:10px;
+ }
+ button:hover{
+   background-color: black;
+   color: white;
+   transition: .5s;
+   cursor: pointer;
+ }
+ .heading{
   text-align: center;
-}
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 30px;
+ }
+ 
+ .search-filed, .sort-values{
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .searchTerm {
+  width: 280px;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px ;
+  outline: none;
+  color: #01140b;
+  margin-top: 50px;
+  font-size: 18px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-btn{
+  width: 60px;
+  margin-left: 10px;
+  border: 3px solid #0f1010;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px ;
+  outline: none;
+  color: aliceblue;
+  background-color: #101211;
+  margin-top: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sort-title{
+  font-size: 20px;
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.selected-value{
+  width: 80px;
+  border: 3px solid black;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px ;
+  outline: none;
+  color: #0f1010;
+  margin-left: 5px;
+  font-size: 15px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ 
